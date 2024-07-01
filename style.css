@@ -97,94 +97,97 @@ body{
 .game-name span{
     color: red;
 }
-@media only screen and (min-width: 600px) {
+@media (max-width: 767px) {
+   
     body {
-      background-image: url(https://wallpapercave.com/wp/wp8984730.jpg);
-      background-repeat: no-repeat;
-      background-position-y: 0;
-      background-color: #404d4506;
-      backdrop-filter: blur(5px);
+        background-image: url(https://wallpapercave.com/wp/wp8984730.jpg);
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: #404d4506;
+        backdrop-filter: blur(5px);
+        
+      }
+      .contenor{
+          height: 60vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: rgba(0, 0, 0, 0.645); 
+          
+      }
+      .game{
+          height: 90vmin;
+          width: 90vmin;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          gap: 1.5vmin;
+      }
+      #box{
+          height:28vmin;
+          width: 28vmin;
+          border-radius: 10px;
+          border: none;
+          box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+          font-size: 12vmin;
+          color: red;
+          text-align: center;
+          background-color: rgba(255, 0, 251, 0.364);
+          backdrop-filter: blur(10px);
+          cursor: pointer;
+      }
+      #reset{
+          padding: 1rem; 
+          font-size: 2rem;
+          background-color: rgba(132, 12, 12, 0.501);
+          color: azure;
+          border-radius: 2rem;
+          border: 2px  solid rgba(0, 0, 0, 0.193);
+          backdrop-filter: blur(10px);
+      }
+      #new{
+          margin-top: 10px;
+          margin-bottom: 5px;
+          padding: 1rem;
+          font-size: 2rem;
+          background-color: rgba(155, 23, 23, 0.437);
+          color: azure;
+          border-radius: 2rem;
+          border: 2px  solid rgba(0, 0, 0, 0.193);
+          backdrop-filter: blur(10px);
+      }
+      #msg{
+          font-size: 40px;
+          width: 600px;
+          color: rgba(210, 110, 17, 0.886);
+      }
+      .hide{
+          background-color: rgba(0, 0, 0, 0.695);
+          backdrop-filter: blur(60px);
+          height: 180vmin;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+      }
+      .message{
+          display: none;
+          
+      }
+      .game-name{
+          padding-top: 50px;
+          color: antiquewhite;
+          font-size: 35px;
+      }
+      .game-name span{
+          color: red;
+      }
       
-    }
-    .contenor{
-        height: 60vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: rgba(0, 0, 0, 0.645); 
-        
-    }
-    .game{
-        height: 90vmin;
-        width: 90vmin;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 1.5vmin;
-    }
-    #box{
-        height:28vmin;
-        width: 28vmin;
-        border-radius: 10px;
-        border: none;
-        box-shadow: 0 0 1rem rgba(0,0,0,0.3);
-        font-size: 12vmin;
-        color: red;
-        text-align: center;
-        background-color: rgba(255, 0, 251, 0.364);
-        backdrop-filter: blur(10px);
-        cursor: pointer;
-    }
-    #reset{
-        padding: 1rem; 
-        font-size: 3.5rem;
-        background-color: rgba(132, 12, 12, 0.501);
-        color: azure;
-        border-radius: 2rem;
-        border: 2px  solid rgba(0, 0, 0, 0.193);
-        backdrop-filter: blur(10px);
-    }
-    #new{
-        margin-top: 10px;
-        margin-bottom: 5px;
-        padding: 1rem;
-        font-size: 3.5rem;
-        background-color: rgba(155, 23, 23, 0.437);
-        color: azure;
-        border-radius: 2rem;
-        border: 2px  solid rgba(0, 0, 0, 0.193);
-        backdrop-filter: blur(10px);
-    }
-    #msg{
-        font-size: 60px;
-        width: 600px;
-        color: rgba(210, 110, 17, 0.886);
-    }
-    .hide{
-        background-color: rgba(0, 0, 0, 0.695);
-        backdrop-filter: blur(60px);
-        height: 200vmin;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    .message{
-        display: none;
-        
-    }
-    .game-name{
-        padding-top: 50px;
-        color: antiquewhite;
-        font-size: 60px;
-    }
-    .game-name span{
-        color: red;
-    }
-    #reset,#new{
+      
+    
 
-    }
+
     
   }
   
