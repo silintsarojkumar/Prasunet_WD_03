@@ -2,12 +2,25 @@
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 body{
-    background-color: #404d4558;
+    margin-top: 0;
+    background-color: #404d4506;
     text-align: center;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
+    background-image: url(https://i.pinimg.com/originals/14/32/56/143256759ebf87d66dcdbe462bdcec59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -80vh;
 
+}
+.main-box{
+    margin-top: 0;
+    width: 100%;
+    height: 700px;
+    
+    
 }
 
 
@@ -35,7 +48,7 @@ body{
     font-size: 12vmin;
     color: red;
     text-align: center;
-    background-color: rgba(255, 0, 251, 0.223);
+    background-color: rgba(255, 0, 251, 0.364);
     backdrop-filter: blur(10px);
     cursor: pointer;
 }
@@ -78,7 +91,8 @@ body{
     display: none;
 }
 .game-name{
-    margin-top: 20px;
+    padding-top: 20px;
+    color: antiquewhite;
 }
 .game-name span{
     color: red;
