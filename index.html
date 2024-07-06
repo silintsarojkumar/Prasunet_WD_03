@@ -4,10 +4,49 @@
    <meta name="viewport" content="width=devise-width,initial-scale=1.0">
     <title>Tic tac toe</title>
     <link href="style.css" rel="stylesheet">
-
 </head>
 <body>
-    <div class="main-box">
+    <div id="buttons">
+        <h1>Tik <span>Tak</span>Toe</h1>
+        
+        <button id="playSig" onclick="playsig()">Single play</button>
+        <button id="playMul" onclick="playmul()">Multi Play</button>
+    </div>
+    <section id="multi" >
+        <div class="main-box">
+            <div class="message hide">
+        <p id="msg"></p>
+        <button id="new" >New Game</button>
+        </div>
+     <main class="main">
+
+        <h1 class="game-name">TIC    <span> TAC </span>   TOE</h1>
+
+      <div class="contenor">
+      <div class="game">
+        <button id="box" ></button>
+        <button id="box" ></button>
+        <button id="box" ></button>
+        <button id="box" ></button>
+        <button id="box" ></button>
+        <button id="box" ></button>
+        <button id="box" ></button>
+        <button id="box" ></button>
+        <button id="box" ></button>
+        
+       </div>
+    
+        </div>
+        <button id="reset" type="reset">Reset Game</button>
+   
+        </main>
+        </div>
+
+    </section>
+   <div id="single">
+    
+    <div>
+        <div class="main-box-ai">
             <div class="message hide">
         <p id="msg"></p>
         <button id="new" >New Game</button>
@@ -16,36 +55,37 @@
 
         <h1 class="game-name">TIC    <span> TAC </span>   TOE</h1>
 
-   <div class="contenor">
-    <div class="game">
-        <button id="box" ></button>
-        <button id="box" ></button>
-        <button id="box" ></button>
-        <button id="box" ></button>
-        <button id="box" ></button>
-        <button id="box" ></button>
-        <button id="box" ></button>
-        <button id="box" ></button>
-        <button id="box" ></button>
-        
+
+
+        <div class="contenor" >
+            <div class="game" >
+                <button class="cell" id="0"></button>
+                <button class="cell" id="1"></button>
+                <button class="cell" id="2"></button>
+                <button class="cell" id="3"></button>
+                <button class="cell" id="4"></button>
+                <button class="cell" id="5"></button>
+                <button class="cell" id="6"></button>
+                <button class="cell" id="7"></button>
+                <button class="cell" id="8"></button>
+            </div>
+        </div>
     </div>
-    
-   </div>
-   <button id="reset" type="reset">Reset Game</button>
-   
-    </main>
+    <div id="endgame">
+        <div class="text"></div>
     </div>
-        
+    <button type="reset" class="reset" id="reset" class="compreset" onclick="startGame()" >
+        Reset 
+    </button>
+</main>
     
-
-
-
-
-
-
-    <script src="app.js">
         
-
+       
+    
+</div>
+    <script src="hi.js">
+        
+       
     </script>
 </body>
 </html>
